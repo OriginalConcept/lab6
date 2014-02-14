@@ -54,7 +54,7 @@ $("#project-description").html(result['summary']);
 
 function changeColors(result)
 {
-	var colors = result["colors"]["hexValue"];
+	var colors = result["colors"]["hex"];
 	$('body').css('background-color', colors[0]);
 	$('.thumbnail').css('background-color', colors[1]);
 	$('h1, h2, h3, h4, h5, h5').css('color', colors[2]);
